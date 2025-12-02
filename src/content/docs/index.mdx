@@ -1,40 +1,60 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Aprende a diseñar desde CERO
+description: Rutas de aprendizaje para CAD, CAM y CAE.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Domina el diseño con una ruta estructurada paso a paso. Deja de perder tiempo en tutoriales desordenados.
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Empezar con SolidWorks
+      link: /solidworks/ruta
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+      variant: primary
+    - text: Ver repositorio en GitHub
+      link: https://github.com/tu-usuario/roadmap-cad
       icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Selecciona tu herramienta
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="SolidWorks" icon="seti:solidworks">
+		La ruta más completa. Desde el croquis básico hasta simulación y API.
+        <br/>
+        [**Ir a la Ruta ➜**](/solidworks/ruta)
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="AutoCAD" icon="seti:autocad">
+		El estándar del dibujo 2D. Planos arquitectónicos y mecánicos.
+        <br/>
+        *(Próximamente)*
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Siemens NX" icon="seti:bicep">
+		Diseño de alto nivel para industria automotriz y aeroespacial.
+        <br/>
+        *(Próximamente)*
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="OnShape" icon="seti:cloud">
+		CAD 100% en la nube. Colaboración en tiempo real.
+        <br/>
+        *(Próximamente)*
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+</CardGrid>
+
+---
+
+## ¿Cómo funciona este Roadmap?
+
+<CardGrid>
+	<Card title="1. Estructurado" icon="list-format">
+		No más videos al azar. Sigue el orden lógico: Fundamentos → Modelado → Experto.
+	</Card>
+	<Card title="2. Interactivo" icon="rocket">
+		Mapas visuales que te permiten rastrear tu progreso y elegir especializaciones.
+	</Card>
+	<Card title="3. Open Source" icon="github">
+		Todo el contenido es gratuito y mantenido por la comunidad.
 	</Card>
 </CardGrid>
