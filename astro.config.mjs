@@ -16,14 +16,14 @@ base: '/RoadMapCAD',
         {
           label: "GitHub",
           icon: "github",
-          href: "https://github.com"
+          href: "https://abdielescobedo.github.io/RoadMapCAD/"
         }
       ],
       sidebar: [
         {
           label: '🏠 MAPA GENERAL',
           items: [
-            { label: 'Ruta de Aprendizaje', link: '/solidworks/ruta' },
+            { label: 'Ruta de Aprendizaje', link: '/RoadMapCAD/solidworks/ruta' },
           ],
         },
         // --- FUNDAMENTOS ---
