@@ -4,59 +4,59 @@ const rutaAprendizaje = [
   // --- FUNDAMENTOS ---
   {
     nivel: "Nivel 0: Intro y Fundamentos",
-    modulos: [{ titulo: "Interfaz y Entorno", desc: "Configuración, templates y primeros pasos.", link: "/solidworks/00-intro", color: "#3b82f6" }]
+    modulos: [{ titulo: "Interfaz y Entorno", desc: "Configuración, templates y primeros pasos.", link: "/RoadMapCAD/solidworks/00-intro", color: "#3b82f6" }]
   },
   {
     nivel: "Nivel 1: Sketching 2D",
-    modulos: [{ titulo: "Dominio del Croquis", desc: "Relaciones geométricas, splines y fully defined.", link: "/solidworks/01-sketch", color: "#3b82f6" }]
+    modulos: [{ titulo: "Dominio del Croquis", desc: "Relaciones geométricas, splines y fully defined.", link: "/RoadMapCAD/solidworks/01-sketch", color: "#3b82f6" }]
   },
   // --- MODELADO ---
   {
     nivel: "Nivel 2: Modelado 3D Básico",
-    modulos: [{ titulo: "Operaciones Sólidas", desc: "Extrusiones, revoluciones y features base.", link: "/solidworks/02-modelado-basico", color: "#10b981" }]
+    modulos: [{ titulo: "Operaciones Sólidas", desc: "Extrusiones, revoluciones y features base.", link: "/RoadMapCAD/solidworks/02-modelado-basico", color: "#10b981" }]
   },
   {
     nivel: "Nivel 3: Ensambles",
-    modulos: [{ titulo: "Assembly Design", desc: "Mates, sub-ensambles y detección de colisiones.", link: "/solidworks/03-ensambles", color: "#10b981" }]
+    modulos: [{ titulo: "Assembly Design", desc: "Mates, sub-ensambles y detección de colisiones.", link: "/RoadMapCAD/solidworks/03-ensambles", color: "#10b981" }]
   },
   {
     nivel: "Nivel 4: Planos Técnicos",
-    modulos: [{ titulo: "Drawings & GD&T", desc: "Vistas, BOMs y documentación para manufactura.", link: "/solidworks/04-planos", color: "#10b981" }]
+    modulos: [{ titulo: "Drawings & GD&T", desc: "Vistas, BOMs y documentación para manufactura.", link: "/RoadMapCAD/solidworks/04-planos", color: "#10b981" }]
   },
   // --- ESPECIALIZACIÓN (Aquí pongo 2 por fila para ahorrar espacio visual) ---
   {
     nivel: "Especialización A: Formas Complejas",
     modulos: [
-      { titulo: "Nivel 5: Superficies", desc: "Diseño orgánico y carcasas.", link: "/solidworks/05-superficies", color: "#8b5cf6" },
-      { titulo: "Nivel 9: Moldes", desc: "Núcleos, cavidades y parting lines.", link: "/solidworks/09-moldes", color: "#8b5cf6" }
+      { titulo: "Nivel 5: Superficies", desc: "Diseño orgánico y carcasas.", link: "/RoadMapCAD/solidworks/05-superficies", color: "#8b5cf6" },
+      { titulo: "Nivel 9: Moldes", desc: "Núcleos, cavidades y parting lines.", link: "/RoadMapCAD/solidworks/09-moldes", color: "#8b5cf6" }
     ]
   },
   {
     nivel: "Especialización B: Manufactura Metálica",
     modulos: [
-      { titulo: "Nivel 6: Chapa Metálica", desc: "Plegados y desarrollo de lámina.", link: "/solidworks/06-chapa-metalica", color: "#f59e0b" },
-      { titulo: "Nivel 7: Soldadura", desc: "Estructuras y perfiles (Weldments).", link: "/solidworks/07-soldadura", color: "#f59e0b" }
+      { titulo: "Nivel 6: Chapa Metálica", desc: "Plegados y desarrollo de lámina.", link: "/RoadMapCAD/solidworks/06-chapa-metalica", color: "#f59e0b" },
+      { titulo: "Nivel 7: Soldadura", desc: "Estructuras y perfiles (Weldments).", link: "/RoadMapCAD/solidworks/07-soldadura", color: "#f59e0b" }
     ]
   },
   {
     nivel: "Visualización y Movimiento",
     modulos: [
-      { titulo: "Nivel 8: Mecanismos", desc: "Motion study y gravedad.", link: "/solidworks/08-mecanismos", color: "#ec4899" },
-      { titulo: "Nivel 10: Render", desc: "Visualize e iluminación.", link: "/solidworks/10-render", color: "#ec4899" }
+      { titulo: "Nivel 8: Mecanismos", desc: "Motion study y gravedad.", link: "/RoadMapCAD/solidworks/08-mecanismos", color: "#ec4899" },
+      { titulo: "Nivel 10: Render", desc: "Visualize e iluminación.", link: "/RoadMapCAD/solidworks/10-render", color: "#ec4899" }
     ]
   },
   // --- INGENIERÍA AVANZADA ---
   {
     nivel: "Ingeniería Avanzada",
     modulos: [
-      { titulo: "Nivel 11: Simulación CAE", desc: "FEA estático, fatiga y térmico.", link: "/solidworks/11-simulacion", color: "#ef4444" },
-      { titulo: "Nivel 12: API & Automatización", desc: "Macros, VBA y programación.", link: "/solidworks/12-api-automatizacion", color: "#ef4444" }
+      { titulo: "Nivel 11: Simulación CAE", desc: "FEA estático, fatiga y térmico.", link: "/RoadMapCAD/solidworks/11-simulacion", color: "#ef4444" },
+      { titulo: "Nivel 12: API & Automatización", desc: "Macros, VBA y programación.", link: "/RoadMapCAD/solidworks/12-api-automatizacion", color: "#ef4444" }
     ]
   },
   // --- FINAL ---
     {
     nivel: "🏆 Nivel 13: Proyectos Maestros",
-    modulos: [{ titulo: "Portfolio Profesional", desc: "Drones, productos complejos y automatización.", link: "/solidworks/13-proyectos-maestros", color: "#eab308" }] // Dorado
+    modulos: [{ titulo: "Portfolio Profesional", desc: "Drones, productos complejos y automatización.", link: "/RoadMapCAD/solidworks/13-proyectos-maestros", color: "#eab308" }] // Dorado
   }
 ];
 
