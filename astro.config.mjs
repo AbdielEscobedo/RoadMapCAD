@@ -19,10 +19,14 @@ base: '/RoadMapCAD',
           href: "https://abdielescobedo.github.io/RoadMapCAD/"
         },
         {
-        youtube: 'https://youtube.com/@tucanal'
+        label: "Youtube",
+          icon: "youtube",
+          href: 'https://youtube.com/@tucanal'
         },
         {
-        linkedin: 'https://linkedin.com/in/tuperfil'
+        label: "Linkedin",
+          icon: "linkedin",
+          href: "https://linkedin.com/in/tuperfil"
         }
       ],
       sidebar: [
