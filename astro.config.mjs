@@ -23,7 +23,7 @@ base: '/RoadMapCAD',
         {
           label: '🏠 MAPA GENERAL',
           items: [
-            { label: 'Ruta de Aprendizaje', link: '/RoadMapCAD/solidworks/ruta' },
+            { label: 'Ruta de Aprendizaje', link: '/solidworks/ruta' },
           ],
         },
         // --- FUNDAMENTOS ---
