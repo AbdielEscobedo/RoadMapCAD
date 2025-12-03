@@ -1,5 +1,51 @@
 ---
-title: Nivel 1 - Sketching 2D
+title: Nivel 11 — Simulación Avanzada
+description: FEA, CFD y validación de ingeniería.
+sidebar:
+  order: 0
+  label: Introducción
 ---
 
-Próximamente...
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+**OBJETIVO:** Validar tus diseños matemáticamente antes de fabricar el primer prototipo. Dominarás el método de Elementos Finitos (FEM) y Volúmenes Finitos (FVM).
+
+:::danger[Advertencia GIGO]
+**Garbage In, Garbage Out.** Si configuras mal las cargas o sujeciones, SolidWorks te dará un resultado bonito y colorido, **pero incorrecto**. Aquí aprenderás a distinguir la verdad de la fantasía.
+:::
+
+## Contenido del Nivel
+
+<CardGrid>
+  <LinkCard
+    title="Bloque 11.1 — Análisis Estático"
+    description="Von Mises, Factor de Seguridad y control de Malla (Meshing)."
+    href="/RoadMapCAD/solidworks/11-simulacion/bloque-1"
+  />
+  <LinkCard
+    title="Bloque 11.2 — Modos de Falla"
+    description="Frecuencia natural (Resonancia), Pandeo (Buckling) y Fatiga."
+    href="/RoadMapCAD/solidworks/11-simulacion/bloque-2"
+  />
+  <LinkCard
+    title="Bloque 11.3 — Térmico y No Lineal"
+    description="Dilatación térmica, materiales plásticos/hule y Drop Test."
+    href="/RoadMapCAD/solidworks/11-simulacion/bloque-3"
+  />
+  <LinkCard
+    title="Bloque 11.4 — Fluidos (CFD)"
+    description="Flow Simulation: Aerodinámica y flujos internos (Válvulas)."
+    href="/RoadMapCAD/solidworks/11-simulacion/bloque-4"
+  />
+  <LinkCard
+    title="Bloque 11.5 — Optimización"
+    description="Optimización Topológica y Paramétrica (Design Study)."
+    href="/RoadMapCAD/solidworks/11-simulacion/bloque-5"
+  />
+</CardGrid>
+
+---
+
+:::note[Proyecto Mini-bloque]
+Realizaremos la **Optimización Topológica** de un brazo de suspensión automotriz, reduciendo su peso un 30% manteniendo su resistencia.
+:::

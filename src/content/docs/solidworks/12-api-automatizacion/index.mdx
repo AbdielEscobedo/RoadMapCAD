@@ -1,5 +1,46 @@
 ---
-title: Nivel 1 - Sketching 2D
+title: Nivel 12 — API & Code
+description: Automatización de tareas con Macros y Programación.
+sidebar:
+  order: 0
+  label: Introducción
 ---
 
-Próximamente...
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+**OBJETIVO:** Dejar de hacer tareas repetitivas "clic a clic". Aprenderás a escribir scripts que crean planos automáticamente, exportan archivos en masa y generan geometría paramétrica compleja.
+
+:::tip[Requisito Previo]
+No necesitas ser un experto programador, pero entender la lógica básica de **"Si... Entonces" (If/Else)** y **"Bucles" (Loops)** te ayudará muchísimo.
+:::
+
+## Contenido del Nivel
+
+<CardGrid>
+  <LinkCard
+    title="Bloque 12.1 — Macros y VBA"
+    description="Tu primer script. Grabadora de macros, editor VBA y depuración de código."
+    href="/RoadMapCAD/solidworks/12-api-automatizacion/bloque-1"
+  />
+  <LinkCard
+    title="Bloque 12.2 — El Modelo de Objetos"
+    description="Entendiendo la jerarquía: SldWorks App -> ModelDoc2 -> PartDoc."
+    href="/RoadMapCAD/solidworks/12-api-automatizacion/bloque-2"
+  />
+  <LinkCard
+    title="Bloque 12.3 — Automatización de Tareas"
+    description="Llenado automático de Propiedades (Custom Properties) y exportación PDF/DXF."
+    href="/RoadMapCAD/solidworks/12-api-automatizacion/bloque-3"
+  />
+  <LinkCard
+    title="Bloque 12.4 — Batch Processing y UI"
+    description="Crear formularios (User Forms) y procesar carpetas enteras de archivos."
+    href="/RoadMapCAD/solidworks/12-api-automatizacion/bloque-4"
+  />
+</CardGrid>
+
+---
+
+:::note[Proyecto Mini-bloque]
+Crearemos un **"Exportador Universal"**: Un botón que, al darle clic, guarde el archivo actual, genere su PDF, su DXF y cierre el documento automáticamente.
+:::
