@@ -18,43 +18,79 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Selecciona tu herramienta
+## 🛠️ Selecciona tu herramienta
 
 <CardGrid stagger>
-	<Card title="SolidWorks" icon="seti:solidworks">
-		La ruta más completa. Desde el croquis básico hasta simulación y API.
-        <br/>
-        [**Ir a la Ruta ➜**](/RoadMapCAD/solidworks/ruta)
-	</Card>
-	<Card title="AutoCAD" icon="seti:autocad">
-		El estándar del dibujo 2D. Planos arquitectónicos y mecánicos.
-        <br/>
-        *(Próximamente)*
-	</Card>
-	<Card title="Siemens NX" icon="seti:bicep">
-		Diseño de alto nivel para industria automotriz y aeroespacial.
-        <br/>
-        *(Próximamente)*
-	</Card>
-	<Card title="OnShape" icon="seti:cloud">
-		CAD 100% en la nube. Colaboración en tiempo real.
-        <br/>
-        *(Próximamente)*
-	</Card>
+  
+  <Card title="SolidWorks">
+    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 10px;">
+        <img src="/RoadMapCAD/logos/sw.png" alt="Logo SolidWorks" width="50" height="50" style="margin:0;" />
+        <span style="font-weight: bold; color: #d32f2f;">La Ruta Principal</span>
+    </div>
+    Desde el croquis básico hasta simulación y API. La ruta más completa disponible.
+    <br/>
+    [**Ir al Mapa ➜**](/RoadMapCAD/solidworks/ruta)
+  </Card>
+
+  <Card title="AutoCAD">
+    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 10px;">
+        <img src="/RoadMapCAD/logos/acad.png" alt="Logo AutoCAD" width="50" height="50" style="margin:0;" />
+        <span style="font-weight: bold; color: #c41e3a;">Dibujo 2D</span>
+    </div>
+    El estándar de la industria para planos arquitectónicos y layouts de planta.
+    <br/>
+    *(Próximamente)*
+  </Card>
+
+  <Card title="Siemens NX">
+    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 10px;">
+        <img src="/RoadMapCAD/logos/nx.svg" alt="Logo NX" width="50" height="50" style="margin:0;" />
+        <span style="font-weight: bold; color: #e65100;">Nivel Automotriz</span>
+    </div>
+    Diseño de superficies complejas clase A y manufactura avanzada.
+    <br/>
+    *(Próximamente)*
+  </Card>
+
+  <Card title="OnShape">
+    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 10px;">
+        <img src="/RoadMapCAD/logos/onshape.svg" alt="Logo OnShape" width="50" height="50" style="margin:0;" />
+        <span style="font-weight: bold; color: #1565c0;">CAD en la Nube</span>
+    </div>
+    Colaboración en tiempo real sin instalar nada en tu PC.
+    <br/>
+    *(Próximamente)*
+  </Card>
+
 </CardGrid>
 
 ---
 
-## ¿Cómo funciona este Roadmap?
+## 👨‍💻 Conecta conmigo
+Si tienes dudas sobre las clases o quieres sugerir un tema, escríbeme.
 
 <CardGrid>
-	<Card title="1. Estructurado" icon="list-format">
-		No más videos al azar. Sigue el orden lógico: Fundamentos → Modelado → Experto.
-	</Card>
-	<Card title="2. Interactivo" icon="rocket">
-		Mapas visuales que te permiten rastrear tu progreso y elegir especializaciones.
-	</Card>
-	<Card title="3. Open Source" icon="github">
-		Todo el contenido es gratuito y mantenido por la comunidad.
-	</Card>
+  <Card title="YouTube" icon="youtube">
+    [**@TuCanal**](https://youtube.com/@tucanal)
+    <br/>
+    Clases completas y tutoriales.
+  </Card>
+  
+  <Card title="LinkedIn" icon="linkedin">
+    [**Ver Perfil**](https://linkedin.com/in/tuperfil)
+    <br/>
+    Artículos profesionales y networking.
+  </Card>
+  
+  <Card title="Instagram" icon="instagram">
+    [**@TuInstagram**](https://instagram.com/tuusuario)
+    <br/>
+    Tips rápidos y detrás de cámaras.
+  </Card>
+  
+  <Card title="GitHub" icon="github">
+    [**Ver Código**](https://github.com/tu-usuario)
+    <br/>
+    Colabora con este proyecto Open Source.
+  </Card>
 </CardGrid>
