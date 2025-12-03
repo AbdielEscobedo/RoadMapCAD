@@ -82,7 +82,7 @@ export default function TimelineAvanzado() {
             fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center',
             fontSize: '1.4rem', flexShrink: 0, zIndex: 1, border: '4px solid var(--sl-color-bg)'
           }}>
-            {index + 1}
+            {index}
           </div>
 
           {/* 3. EL CONTENEDOR DE CONTENIDO */}
