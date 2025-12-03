@@ -1,27 +1,10 @@
 ---
-title: Bloque 2.2 — Operaciones intermedias
-description: Shell, Draft, Rib, Sweep, Loft.
+title: Bloque 2.2 — Taladros y Acabados
+description: Hole Wizard, Fillet y Chamfer.
 sidebar:
   order: 2
 ---
-
-## 📺 Clase en Video
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
-  <iframe 
-    src="https://www.youtube.com/embed/TU_VIDEO_AQUI" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
-    allowfullscreen>
-  </iframe>
-</div>
-
----
-
-## 📝 Requisitos de Operación
-*   **Sweep (Barrido):** Necesitas 1 Perfil (Sketch cerrado) + 1 Ruta (Línea/Curva).
-*   **Loft (Recubrimiento):** Necesitas 2 o más Perfiles en planos diferentes.
-*   **Shell (Vaciado):** Vacía el interior de una pieza sólida dejando paredes delgadas.
-
-:::caution[Orden de operaciones]
-Haz los **Redondeos (Fillets)** al final, pero ANTES de hacer un **Vaciado (Shell)**, para que el vaciado sea uniforme por dentro.
-:::
+## 📺 Temas del Video
+1.  **Hole Wizard:** Taladros estandarizados (M6, 1/4", Avellanados). ¡Nunca hagas círculos manuales para tornillos!
+2.  **Fillet (Redondeo):** Constante vs Variable.
+3.  **Chamfer (Chaflán):** Ángulo-Distancia vs Distancia-Distancia.
