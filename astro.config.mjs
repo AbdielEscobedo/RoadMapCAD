@@ -20,7 +20,7 @@ base: '/RoadMapCAD',
         },
         {
         youtube: 'https://youtube.com/@tucanal'
-        }
+        },
         {
         linkedin: 'https://linkedin.com/in/tuperfil'
         }
