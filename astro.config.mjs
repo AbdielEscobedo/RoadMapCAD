@@ -21,12 +21,12 @@ base: '/RoadMapCAD',
         {
         label: "Youtube",
           icon: "youtube",
-          href: 'https://youtube.com/@tucanal'
+          href: 'https://www.youtube.com/@diseñandoconabdiel'
         },
         {
         label: "Linkedin",
           icon: "linkedin",
-          href: "https://linkedin.com/in/tuperfil"
+          href: "www.linkedin.com/in/abdiel-escobedo"
         }
       ],
       sidebar: [
