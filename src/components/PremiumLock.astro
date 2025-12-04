@@ -1,0 +1,63 @@
+---
+// src/components/PremiumLock.astro
+const { link } = Astro.props;
+---
+
+<div class="premium-lock">
+  <div class="lock-icon">🔒</div>
+  <h3>Contenido Exclusivo</h3>
+  <p>Esta lección avanzada está disponible solo para miembros de la comunidad.</p>
+  
+  <a href={link} target="_blank" class="btn-patreon">
+    Ver en Patreon
+  </a>
+  
+  <p class="small">Apoya el proyecto y accede a todos los archivos y mentorías.</p>
+</div>
+
+<style>
+  .premium-lock {
+    background: linear-gradient(135deg, #1e1e2e 0%, #2a2a40 100%);
+    border: 1px solid #4a4a60;
+    border-radius: 12px;
+    padding: 3rem 2rem;
+    text-align: center;
+    color: white;
+    margin: 2rem 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+
+  .lock-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffd700; /* Dorado */
+  }
+
+  .btn-patreon {
+    display: inline-block;
+    background-color: #ff424d; /* Color Patreon */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 50px;
+    margin-top: 1.5rem;
+    transition: transform 0.2s;
+  }
+
+  .btn-patreon:hover {
+    transform: scale(1.05);
+    background-color: #e63b45;
+  }
+
+  .small {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-top: 1rem;
+  }
+</style>

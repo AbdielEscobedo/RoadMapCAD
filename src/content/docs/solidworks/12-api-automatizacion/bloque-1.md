@@ -1,16 +1,22 @@
 ---
 title: Bloque 12.1 — Macros y VBA
-description: Grabadora y Editor.
+description: Clase exclusiva.
 sidebar:
   order: 1
 ---
 
-## 📺 Temas del Video
-1.  **Macro Recorder:** La forma fácil de empezar. Grabar una acción, detener y ver el código que generó SolidWorks.
-    *   *Limitaciones:* La grabadora es "tonta", no usa lógica ni bucles.
-2.  **VBA Editor (VBE):** Entorno de desarrollo. Explorador de proyectos y referencias.
-3.  **Depuración (Debugging):** Cómo usar puntos de interrupción (Breakpoints) y la ventana de inmediato para encontrar errores.
+import PremiumLock from '../../../../components/PremiumLock.astro';
 
-:::caution[La basura de la grabadora]
-El código grabado suele tener cientos de líneas inútiles (como movimientos de cámara). Aprenderás a identificar qué borrar para dejar el código limpio.
-:::
+## 🔒 Clase Avanzada
+
+En esta lección aprendemos a hackear la interfaz de SolidWorks para crear botones propios.
+
+<PremiumLock link="https://www.patreon.com/posts/tu-video-privado-12345" />
+
+---
+
+## 📝 Lo que aprenderás
+Aunque el video es privado, puedes dejar el resumen público para "antojar" al usuario:
+*   Cómo usar la grabadora de macros.
+*   Limpieza de código basura.
+*   Creación de tu primer botón "Hola Mundo".
